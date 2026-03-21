@@ -10,57 +10,24 @@ Le département ALM (Asset Liability Management) doit analyser un volume importa
 
 L'objectif du projet est de fournir un assistant de chat capable de retrouver rapidement des informations pertinentes dans ces documents.
 
-## 2) Contraintes du sujet et vérification
-
-### Exigences imposées
-
-- Pas d'API cloud tierce (confidentialité)
-- Utilisation de modèles open-weights exécutés localement
-- Réponses sourcées vers le document d'origine
-- Mode conversationnel avec historique
-- Stockage local des embeddings (ChromaDB ou FAISS)
-- Évaluation via dataset fourni (`corpus.json`, `queries.json`, `relevant_docs.json`, `answers.json`, `errors.json`)
-- F1 BERTScore attendu >= 60%
-
-### Vérification dans l'implémentation
-
-- Confidentialité / local-only : **OK**
-  - Modèle local via `transformers` (`mistralai/Mistral-7B-Instruct-v0.2`)
-  - Embeddings locaux via `sentence-transformers`
-  - Vector store local via `Chroma`
-  - Pas d'appel API externe dans le pipeline
-- Open-weights : **OK**
-  - Modèle génératif Mistral 7B Instruct
-- Réponses sourcées : **OK**
-  - Le prompt impose la citation de source
-  - Le contexte injecté inclut `Source` et `Page`
-  - Validation automatique en post-traitement (`Source: ... - Page <nombre>`)
-- Mode conversationnel : **OK**
-  - `ConversationBufferMemory` activée hors mode évaluation
-- Stockage local des embeddings : **OK**
-  - `chroma_db/` et `chroma_eval_db/`
-- Évaluation dataset : **OK**
-  - Chargement de `corpus.json`, `queries.json`, `relevant_docs.json`, `answers.json`
-  - Génération de `errors.json`
-  - Calcul `BERTScore F1` et `recall@K`
-- Seuil de qualité F1 >= 60% : **OK sur l'exécution reportée**
-  - Résultat communiqué : `Mean BERT-F1 = 0.6903` (69.03%)
-
-## 3) Architecture technique
+## 2) Architecture technique
 
 ### Retrieval
 
 - Chargement des PDF DIC via `PyPDFLoader`
 - Découpage en chunks via `RecursiveCharacterTextSplitter`
-- Embeddings `sentence-transformers/paraphrase-multilingual-mpnet-base-v2`
+- Embeddings finaux : `BAAI/bge-m3`
 - Indexation dans Chroma
-- Recherche des chunks via MMR (`max_marginal_relevance_search`)
+- Recherche des chunks via `similarity_search` (K=4)
 
 ### Génération
 
 - LLM : `mistralai/Mistral-7B-Instruct-v0.2`
 - Prompt contraint au contexte récupéré (RAG)
 - Historique conversationnel en mémoire pour le mode chat
+- `max_new_tokens` piloté par config :
+  - `MAX_NEW_TOKENS_EVAL = 128` : garde un protocole stable et comparables entre tests (moins de variance, moins de coût)
+  - `MAX_NEW_TOKENS_CHAT = 258` :permet des réponses plus complètes pour l'usage utilisateur
 
 ### Évaluation
 
@@ -68,7 +35,7 @@ L'objectif du projet est de fournir un assistant de chat capable de retrouver ra
 - Génération : `BERTScore F1`
 - Exports détaillés + synthèse + erreurs
 
-## 4) Structure du dépôt
+## 3) Structure du dépôt
 
 - `rag.ipynb` : pipeline complet (ingestion, indexation, chat, évaluation, exports)
 - `DIC/` : corpus source en PDF
@@ -76,15 +43,17 @@ L'objectif du projet est de fournir un assistant de chat capable de retrouver ra
 - `chroma_eval_db/` : base vectorielle de test (évaluation)
 - `dataset_eval/` : dataset d'évaluation + exports
 
-## 5) Variables de configuration principales
+## 4) Variables de configuration principales
 
 Dans `rag.ipynb` :
 
 - `EMBEDDING_MODEL_NAME`
 - `MODEL_ID`
 - `K`
-- `MMR_FETCH_K`
-- `MMR_LAMBDA`
+- `CHUNK_SIZE`
+- `CHUNK_OVERLAP`
+- `MAX_NEW_TOKENS_EVAL`
+- `MAX_NEW_TOKENS_CHAT`
 - `BERT_THRESHOLD`
 - `RUN_CHAT`
 - `EVAL_MAX_QUERIES`
@@ -95,7 +64,7 @@ Utilisation recommandée :
 - Run final : `EVAL_MAX_QUERIES = None`
 - Reproductibilité : garder `EVAL_RANDOM_SEED` fixe
 
-## 6) Dataset d'évaluation
+## 5) Dataset d'évaluation
 
 Fichiers d'entrée dans `dataset_eval/` :
 
@@ -107,7 +76,7 @@ Fichiers d'entrée dans `dataset_eval/` :
 
 Note importante : dans le dataset actuel, chaque requête a 1 document pertinent annoté.
 
-## 7) Exports produits
+## 6) Exports produits
 
 - `dataset_eval/result/last/evaluation_results.csv`
 - `dataset_eval/result/last/errors.json`
@@ -118,14 +87,25 @@ Colonnes principales de `evaluation_results.csv` :
 
 - `uuid`, `query`, `gen`, `ref`, `bert_f1`, `retrieved_uuids`, `expected_uuids`, `recall_at_k`, `has_source_citation`
 
-Règles de construction de `errors.json` :
-
-- réponse vide
-- ou `bert_f1 < BERT_THRESHOLD`
-- ou `recall_at_k == 0`
-- ou citation de source absente / invalide (`has_source_citation == False`)
-
 Interprétation de `recall@K` ici : comme il y a un seul doc pertinent par requête, c'est équivalent à un hit@K moyen.
+
+## 7) Résultat final retenu
+
+Configuration finale :
+- `K=4`
+- `similarity_search`
+- chunking `600/60`
+- embedding `BAAI/bge-m3`
+
+Métriques (run complet 619 requêtes, test5) :
+- Mean BERT-F1 : `0.6876`
+- `% BERT-F1 >= 60%` : `84.65%`
+- Mean recall@4 : `0.5718901453957996`
+
+Explication du choix :
+- Le F1 était déjà > 60% dès les premiers tests, donc l'objectif principal était d'améliorer le retrieval.
+- Le changement d'embedding vers `BAAI/bge-m3` apporte un gain majeur sur le recall (`0.3635 -> 0.5719`) avec un niveau de génération qui reste satisfaisant.
+- Les différents tests sont détaillés dans le fichier `EXPERIMENTS.md`
 
 ## 8) Exécution
 
@@ -136,9 +116,3 @@ Interprétation de `recall@K` ici : comme il y a un seul doc pertinent par requ�
    - rapide : `EVAL_MAX_QUERIES` (ex: 120)
    - complet : `EVAL_MAX_QUERIES = None`
 5. Lancer la section évaluation pour générer les exports dans `dataset_eval/result/last/`
-
-## 9) Limites connues et améliorations possibles
-
-- La validation actuelle repose sur un pattern minimal (`Source: ... - Page <nombre>`).
-- Un contrôle plus avancé peut vérifier que la source citée existe réellement dans les documents récupérés.
-- L'ajout d'une évaluation factuelle complémentaire (au-delà de BERTScore) renforcerait l'analyse qualité.
