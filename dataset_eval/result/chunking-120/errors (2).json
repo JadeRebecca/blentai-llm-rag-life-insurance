@@ -1,0 +1,1906 @@
+[
+  {
+    "uuid": "02b80d9c-5700-4ef8-9f0f-e8c9fdd951a8",
+    "query": "Quel est le niveau d'écart de suivi visé entre le Compartiment et son indice ?",
+    "bert_f1": 0.6359871625900269,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "6e48ff27-0090-4bef-b21e-c1295845a177"
+    ],
+    "retrieved_uuids": [
+      "2cd2f818-76d5-4dc3-a7d7-6a51aa153950",
+      "b430cefc-78fa-4996-a3ff-bdcebc7a99c5",
+      "ee586454-e4f5-43f2-a6ba-1c8e4d8cef13",
+      "caba5d58-c0cc-4d48-81e3-86ed1d0a1b87"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "02dc1d38-377a-4e6f-b435-2d1cbdf325cc",
+    "query": "Comment est classé ce produit en termes de risque ?",
+    "bert_f1": 0.7106473445892334,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "0878e620-b95a-4878-822d-14f8cc4ae232"
+    ],
+    "retrieved_uuids": [
+      "205a71b5-0744-4ab8-9034-46d239fe90c7",
+      "35e9b882-a723-4078-98ee-3b587fedf04a",
+      "be4eecba-18d9-42b8-9c93-f5e0005925c3",
+      "8318bb95-70d8-476a-aed0-5a77718c23c2"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "0866f74a-2202-4bdf-b9d7-704f56a99f3f",
+    "query": "Quelle est l'obligation légale qui justifie la fourniture de ce document aux investisseurs ?",
+    "bert_f1": 0.724723756313324,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "9df1c39f-62b7-4b6e-895a-344a2556a31e"
+    ],
+    "retrieved_uuids": [
+      "9df1c39f-62b7-4b6e-895a-344a2556a31e",
+      "d48846ea-c3e0-4f71-b2b9-349f6fa11508",
+      "4f3683ac-486b-4481-9848-3d528cf31cef",
+      "3865145f-a3a4-4e22-8006-3dffdde28ac7"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "089a117d-4e87-417d-a627-23061d5a8ec2",
+    "query": "Quelle est la limite d'investissement en parts ou actions d'OPCVM pour le Fonds mentionné dans ce document ?",
+    "bert_f1": 0.737686812877655,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "79937d29-1d4b-490d-b7c3-4dfdcf79962a"
+    ],
+    "retrieved_uuids": [
+      "87853657-ab1f-4d4e-9503-780d873fd408",
+      "546aa205-8335-422d-948a-76334dab3a33",
+      "42942775-a997-481f-8b53-8b32e42abad6",
+      "0d03c524-3bba-444b-8e74-d3520a0179f4"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "0975609a-569f-446e-9476-862f99bcba00",
+    "query": "Quel type d'investisseur est visé par ce produit ?",
+    "bert_f1": 0.8559394478797913,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "546aa205-8335-422d-948a-76334dab3a33"
+    ],
+    "retrieved_uuids": [
+      "546aa205-8335-422d-948a-76334dab3a33",
+      "d48846ea-c3e0-4f71-b2b9-349f6fa11508",
+      "4927c2dd-78af-4878-9e69-6e231e19727a",
+      "18f73077-e216-4301-9066-afec2d12b886"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "0a0c2e2e-60de-476a-9440-53f2cb7160e2",
+    "query": "Quel est le montant des commissions liées aux résultats pour ce produit ?",
+    "bert_f1": 0.5910382866859436,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "f7da731a-03ab-461b-95bc-297ac9dd4710"
+    ],
+    "retrieved_uuids": [
+      "8d780ea7-eb55-4eae-b14d-9c51197f7175",
+      "d48846ea-c3e0-4f71-b2b9-349f6fa11508",
+      "f179fcc1-1c57-443e-98d6-eadc4887b714",
+      "b9aa5b84-26ee-443f-b3ef-e201e9d56c4b"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "0d0a2705-d632-4f13-914c-b1d3b7b1aa57",
+    "query": "Quelle est la durée recommandée pour conserver l'investissement dans ce produit ?",
+    "bert_f1": 0.7297134399414062,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "72c2a2cf-9209-45b2-8e70-7f49db7f049b"
+    ],
+    "retrieved_uuids": [
+      "1e114802-cf97-46bc-8297-fec89e60c0dd",
+      "72c2a2cf-9209-45b2-8e70-7f49db7f049b",
+      "d02d3cd7-1985-40a5-b18f-adec2cad376b",
+      "a7b42cac-9dba-4702-8eac-fb50b6a9316d"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "0d3ab09f-8e08-4612-b59b-bebd73b3b0f3",
+    "query": "Quel est l'indicateur de risque de ce produit Amundi CAC 40 UCITS ETF Dist ?",
+    "bert_f1": 0.5716145038604736,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "c51e44ac-9c8e-46bf-afb3-d7b6444fe9e4"
+    ],
+    "retrieved_uuids": [
+      "c51e44ac-9c8e-46bf-afb3-d7b6444fe9e4",
+      "dda86581-35cc-490f-9100-91c2bb8b2d8f",
+      "6e774a8c-6ae7-49ab-b35d-5e991146b905",
+      "71ffac6c-296f-455f-b5e5-dc357ec8c8c4"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "0e37e70c-d3b9-498f-9d02-7617c0b725fb",
+    "query": "Quelle est la durée d'investissement recommandée pour la Classe d'actions décrite dans le document ?",
+    "bert_f1": 0.5776227116584778,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "0a218959-a60f-4308-9257-005b5fc22ce3"
+    ],
+    "retrieved_uuids": [
+      "1e114802-cf97-46bc-8297-fec89e60c0dd",
+      "0a218959-a60f-4308-9257-005b5fc22ce3",
+      "aa6bd01b-b7c4-4af4-9e6f-8a9c7ad681d8",
+      "bc8488cc-3d76-4e21-9226-68d382a50a0c"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "13700558-ccb6-4d7a-aa7c-685bb779c589",
+    "query": "Quelles sont les hypothèses prises en compte pour les montants indiqués dans le document ?",
+    "bert_f1": 0.7370811700820923,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "aa6bd01b-b7c4-4af4-9e6f-8a9c7ad681d8"
+    ],
+    "retrieved_uuids": [
+      "1af2d752-1b48-4a75-9d4a-cd288e64b31a",
+      "b1929db0-3f1f-4680-9ab5-e92c61741af3",
+      "aa6bd01b-b7c4-4af4-9e6f-8a9c7ad681d8",
+      "bc8488cc-3d76-4e21-9226-68d382a50a0c"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "162e6969-786c-455f-964a-7ca5e8da1d64",
+    "query": "Qui est chargé du contrôle de Société Générale Gestion concernant ce document d’informations clés ?",
+    "bert_f1": 0.7138875126838684,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "d8c273fc-ddec-4ca3-b650-d9e0f5e93820"
+    ],
+    "retrieved_uuids": [
+      "d8c273fc-ddec-4ca3-b650-d9e0f5e93820",
+      "7fcfce7f-1897-4821-84de-b801cfbe852f",
+      "4f3683ac-486b-4481-9848-3d528cf31cef",
+      "a1da6092-abda-46f1-8670-dcd1e9c5da5b"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "1686a458-90e5-4574-be50-f69da39a8d80",
+    "query": "Qui est chargé du contrôle de Amundi Asset Management en ce qui concerne ce document d’informations clés ?",
+    "bert_f1": 0.6952635645866394,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "55dd3171-559f-47d1-bf95-5b391d434b3c"
+    ],
+    "retrieved_uuids": [
+      "3c85aedd-18ba-4646-8e35-958aadcba0f2",
+      "a1da6092-abda-46f1-8670-dcd1e9c5da5b",
+      "55dd3171-559f-47d1-bf95-5b391d434b3c",
+      "21e98a9b-b4ad-4452-a9b1-09c2677d04e5"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "176da429-8305-46b2-a8eb-29882bbb245d",
+    "query": "Quels frais peuvent être supportés par les investisseurs sur le marché secondaire lors de l'achat ou la vente des actions du Fonds ?",
+    "bert_f1": 0.7774745225906372,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "1f58d65a-196d-48eb-ad70-6acf54150257"
+    ],
+    "retrieved_uuids": [
+      "f2cf18bd-ba72-4403-805c-0d69199d4f67",
+      "a7b1d021-da96-4408-8b46-86b37ff72184",
+      "e1fa9867-2a97-4e6d-9dc5-d95ee020e98d",
+      "1f58d65a-196d-48eb-ad70-6acf54150257"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "18027c8c-ded1-4de4-bfaa-93b6150acb1c",
+    "query": "Qu'est-ce qui explique le classement de l'OPC dans la catégorie mentionnée ?",
+    "bert_f1": 0.6075950860977173,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "9b1a4ec9-ef38-4e4c-aa7a-9e29d78aee12"
+    ],
+    "retrieved_uuids": [
+      "6a485341-f574-4825-9d12-51778e1cd635",
+      "4f3683ac-486b-4481-9848-3d528cf31cef",
+      "42942775-a997-481f-8b53-8b32e42abad6",
+      "e1c682c2-ec25-477e-b4b2-b0c4d124e791"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "1bf13fe2-b431-46d1-b812-eca71d61731d",
+    "query": "Que devez-vous indiquer clairement en cas de réclamation selon le document ?",
+    "bert_f1": 0.6427490711212158,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "92b290b3-c7bc-4c74-bb68-4f434a73170e"
+    ],
+    "retrieved_uuids": [
+      "7fcfce7f-1897-4821-84de-b801cfbe852f",
+      "4f3683ac-486b-4481-9848-3d528cf31cef",
+      "bb23a89a-9325-476e-9bcd-604067e1aae9",
+      "d48846ea-c3e0-4f71-b2b9-349f6fa11508"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "1c5852de-0600-462c-a9a7-97af18f6fac1",
+    "query": "Quels sont les scénarios présentés pour une sortie après 1 an et après 5 ans ?",
+    "bert_f1": 0.6326218843460083,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "a9d83874-f3e8-40cc-a5a9-d3886a07501a"
+    ],
+    "retrieved_uuids": [
+      "a08a064e-16dc-475f-824a-5ac19e8ac996",
+      "f6a00c2e-26ea-4873-88bd-18c2f59d5966",
+      "1e0b0c87-93d0-47f9-8ef7-0d019859683e",
+      "2dd2f0ca-93f5-4038-8dbd-114527e8c852"
+    ],
+    "has_source_citation": true
+  },
+  {
+    "uuid": "20267036-3a0e-4ac4-91bc-b23fb52c8628",
+    "query": "À qui est destiné ce produit selon le texte ?",
+    "bert_f1": 0.6639164090156555,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "4c6b4df2-9c2f-4a07-b709-1d4be6e223bc"
+    ],
+    "retrieved_uuids": [
+      "f9e2199a-50e0-4d14-b354-2334794f5149",
+      "5be2c42a-9ed0-4877-99d3-af0840b773ee",
+      "f97142dc-5821-4154-8453-aa24e7995743",
+      "95d392fa-f2b6-4e80-9188-5518c81875f9"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "21f3ffba-9bea-4c1a-bc84-78dcbd2c130b",
+    "query": "Quel est le montant des coûts totaux si vous sortez après 5 ans d'investissement ?",
+    "bert_f1": 0.5900102257728577,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "f16105cd-ef0b-4f35-99fd-3617021583a4"
+    ],
+    "retrieved_uuids": [
+      "1e0b0c87-93d0-47f9-8ef7-0d019859683e",
+      "d02d3cd7-1985-40a5-b18f-adec2cad376b",
+      "a7b42cac-9dba-4702-8eac-fb50b6a9316d",
+      "83150209-93b1-418c-9ca0-2941f48efe81"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "22596d2d-f99c-40e2-8db1-436dbffa8c31",
+    "query": "Quels risques supplémentaires sont mentionnés dans le document ?",
+    "bert_f1": 0.6831864714622498,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "86cf988f-69d7-48cf-9d56-44ad8e68ad86"
+    ],
+    "retrieved_uuids": [
+      "b95b8b74-7bce-459b-8751-3de4fa576398",
+      "c51e44ac-9c8e-46bf-afb3-d7b6444fe9e4",
+      "205a71b5-0744-4ab8-9034-46d239fe90c7",
+      "5734906d-1722-4fd6-b362-64b06848f870"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "22ac9ac5-d59b-48a7-afc7-1c7de2cb4a29",
+    "query": "Quel est le type de produit décrit dans le Document d'informations clés ?",
+    "bert_f1": 0.6359245777130127,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "a1da6092-abda-46f1-8670-dcd1e9c5da5b"
+    ],
+    "retrieved_uuids": [
+      "99390eb3-479a-4760-9c47-85b72cf795dc",
+      "9e4c24d9-0257-4e4c-9962-79fe3d394288",
+      "8a43d0e0-b3f4-44be-99b0-8666ad788f6f",
+      "11a33adb-296d-4c24-849d-f3be8a7cb70f"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "25506045-fed6-47b6-a6aa-00f237ed4fbd",
+    "query": "Quelles sont les limites en pourcentage de l'actif net du fonds pour les obligations de qualité mais non notées et les titres spéculatifs de notation comprise entre BB+ et BB- ?",
+    "bert_f1": 0.5474770665168762,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "6d823c01-ea1a-44c1-9a62-a1502719d499"
+    ],
+    "retrieved_uuids": [
+      "6d823c01-ea1a-44c1-9a62-a1502719d499",
+      "358cb2f2-21db-4c5e-90ca-363338980043",
+      "1ae390f6-3019-4ae1-88c1-9df82495a85b",
+      "87853657-ab1f-4d4e-9503-780d873fd408"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "2639266c-e2da-41ab-a706-509415cc4ce6",
+    "query": "Quelle est l'estimation des coûts de transaction pour ce produit ?",
+    "bert_f1": 0.7076981663703918,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "e529fa9c-54fa-4102-9de4-d3bbe1a1e267"
+    ],
+    "retrieved_uuids": [
+      "f7da731a-03ab-461b-95bc-297ac9dd4710",
+      "f179fcc1-1c57-443e-98d6-eadc4887b714",
+      "4b332c70-a61e-4737-be14-0aa14e2aadc1",
+      "a661416b-be2d-4141-8985-5fb6bfc902c0"
+    ],
+    "has_source_citation": true
+  },
+  {
+    "uuid": "26913616-f603-4425-8b2a-11e7b9f166f7",
+    "query": "Qui gère l'OPCVM R-co Conviction Credit Euro ?",
+    "bert_f1": 0.683018684387207,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "3865145f-a3a4-4e22-8006-3dffdde28ac7"
+    ],
+    "retrieved_uuids": [
+      "a1da6092-abda-46f1-8670-dcd1e9c5da5b",
+      "87853657-ab1f-4d4e-9503-780d873fd408",
+      "79937d29-1d4b-490d-b7c3-4dfdcf79962a",
+      "3c85aedd-18ba-4646-8e35-958aadcba0f2"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "298aacdc-39b7-4132-ab57-511845e5f16f",
+    "query": "Quel est l'investissement initial pour ce produit ?",
+    "bert_f1": 0.6377167701721191,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "6053d9ea-c3e6-4448-9a3c-b296dacdce06"
+    ],
+    "retrieved_uuids": [
+      "aa6bd01b-b7c4-4af4-9e6f-8a9c7ad681d8",
+      "bc8488cc-3d76-4e21-9226-68d382a50a0c",
+      "1af2d752-1b48-4a75-9d4a-cd288e64b31a",
+      "b1929db0-3f1f-4680-9ab5-e92c61741af3"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "2a420ebd-8958-49bc-84b1-38ee0072ae5e",
+    "query": "Où les investisseurs peuvent-ils trouver le prospectus, les statuts et les documents d'informations clés pour l'investisseur?",
+    "bert_f1": 0.6698787808418274,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "6d85a9c6-f67e-44dd-a5d2-75699f879757"
+    ],
+    "retrieved_uuids": [
+      "453026ae-4e86-46c8-a234-ee2d8b832cfc",
+      "554a85d7-84aa-413f-a286-f42b00893e6e",
+      "980e870f-8367-4c61-935e-388eca139947",
+      "546aa205-8335-422d-948a-76334dab3a33"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "315d1f30-a090-4f78-a4bf-6447a65dd9d7",
+    "query": "Où peut-on consulter la Politique d'investissement responsable pour ce fonds d'investissement ?",
+    "bert_f1": 0.547761082649231,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "60435ca9-49e8-4795-b6af-a7ad0312f80c"
+    ],
+    "retrieved_uuids": [
+      "ef2f2b71-a989-4a4b-b2e0-0fe3e6984593",
+      "c8aff14e-0a6b-403e-96e5-cc517c9425e5",
+      "64732aee-68e7-4fbf-8d66-9f46d7a961e6",
+      "bbf02d2f-b248-454e-a95d-5682f4e7a43e"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "31679a18-9514-4940-9722-060cc42eeae3",
+    "query": "Où trouver de plus amples informations sur le risque de durabilité ?",
+    "bert_f1": 0.5669685006141663,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "7676ddad-dab5-475a-a85c-97f3668ef367"
+    ],
+    "retrieved_uuids": [
+      "7676ddad-dab5-475a-a85c-97f3668ef367",
+      "132182c9-a4f5-4a88-96f1-07c22a6203e7",
+      "0d6418eb-5695-4f5d-9ffe-b00ec75c2bba",
+      "16db4b36-9e74-433f-af3d-c58a506ec263"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "3763857b-60b1-4be2-9922-9231ea580b47",
+    "query": "Quel risque supplémentaire est mentionné dans le document ?",
+    "bert_f1": 0.7293583750724792,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "dda86581-35cc-490f-9100-91c2bb8b2d8f"
+    ],
+    "retrieved_uuids": [
+      "b95b8b74-7bce-459b-8751-3de4fa576398",
+      "c51e44ac-9c8e-46bf-afb3-d7b6444fe9e4",
+      "5734906d-1722-4fd6-b362-64b06848f870",
+      "205a71b5-0744-4ab8-9034-46d239fe90c7"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "37c54e0f-1f27-4700-b1dc-b9f7feef68e5",
+    "query": "Quels sont les coûts d'entrée et de sortie pour ce produit si vous sortez après 1 an ?",
+    "bert_f1": 0.6580029129981995,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "b4ad9ca6-d58d-4692-8c0b-32990594d9d7"
+    ],
+    "retrieved_uuids": [
+      "b16f0f29-f61e-4de5-bd69-0fa80d923334",
+      "b4ad9ca6-d58d-4692-8c0b-32990594d9d7",
+      "bb610cba-e297-43c1-b2e7-14ea65f0e1a6",
+      "6ec88b80-4d4b-4168-bb36-28987efeedec"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "3f1696ab-413f-4179-a687-e0724a1c4740",
+    "query": "Quels sont les frais prélevés par le compartiment dans certaines circonstances ?",
+    "bert_f1": 0.6211192011833191,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "b295bc6f-8996-4bcb-96e7-fb4505b2dc4d"
+    ],
+    "retrieved_uuids": [
+      "8d780ea7-eb55-4eae-b14d-9c51197f7175",
+      "53c3ef40-8884-445c-997c-2622bfaf3c8a",
+      "4b332c70-a61e-4737-be14-0aa14e2aadc1",
+      "b16f0f29-f61e-4de5-bd69-0fa80d923334"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "410737af-91e7-4cc1-bcd3-955a563ea563",
+    "query": "Quel est l'objectif du document d'informations clés ?",
+    "bert_f1": 0.6927922964096069,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "95d392fa-f2b6-4e80-9188-5518c81875f9"
+    ],
+    "retrieved_uuids": [
+      "99390eb3-479a-4760-9c47-85b72cf795dc",
+      "9e4c24d9-0257-4e4c-9962-79fe3d394288",
+      "8a43d0e0-b3f4-44be-99b0-8666ad788f6f",
+      "11a33adb-296d-4c24-849d-f3be8a7cb70f"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "424af316-d8b0-426b-baba-7e02a220fb5d",
+    "query": "Où peut-on trouver des informations plus détaillées sur les indices Euronext mentionnés dans le document ?",
+    "bert_f1": 0.5745495557785034,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "749eacf2-608e-4502-ab7e-f157a4322fed"
+    ],
+    "retrieved_uuids": [
+      "f9e2199a-50e0-4d14-b354-2334794f5149",
+      "11a33adb-296d-4c24-849d-f3be8a7cb70f",
+      "37236b24-8692-4aa9-bfd3-5a2a45064ed2",
+      "9e4c24d9-0257-4e4c-9962-79fe3d394288"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "447cf277-9878-4878-950f-e487df26db2c",
+    "query": "Quels sont les montants que vous pourriez obtenir après déduction des coûts dans le scénario défavorable, intermédiaire et favorable ?",
+    "bert_f1": 0.6193431615829468,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "bf15b214-ae23-4f85-bdf9-541cad52d758"
+    ],
+    "retrieved_uuids": [
+      "4927c2dd-78af-4878-9e69-6e231e19727a",
+      "6700dbcc-d7d4-4d5f-9921-8e01cb7a88d8",
+      "1f2dcb7b-3ec0-44e7-a979-b6e012cad5e1",
+      "b9aa5b84-26ee-443f-b3ef-e201e9d56c4b"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "4485aed1-a347-4f6f-b9eb-9628937d14e5",
+    "query": "Quels sont les coûts récurrents prélevés chaque année pour ce produit ?",
+    "bert_f1": 0.7105427384376526,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "b16f0f29-f61e-4de5-bd69-0fa80d923334"
+    ],
+    "retrieved_uuids": [
+      "53c9eb43-677e-4764-ba91-f0f7e110d268",
+      "b16f0f29-f61e-4de5-bd69-0fa80d923334",
+      "b4ad9ca6-d58d-4692-8c0b-32990594d9d7",
+      "bb610cba-e297-43c1-b2e7-14ea65f0e1a6"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "48af5726-90b0-4608-ac9b-28c27321e8a1",
+    "query": "Pour quel type d'investissement ce produit est-il conçu ?",
+    "bert_f1": 0.6508780121803284,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "a7b1d021-da96-4408-8b46-86b37ff72184"
+    ],
+    "retrieved_uuids": [
+      "aa6bd01b-b7c4-4af4-9e6f-8a9c7ad681d8",
+      "bc8488cc-3d76-4e21-9226-68d382a50a0c",
+      "d48846ea-c3e0-4f71-b2b9-349f6fa11508",
+      "18f73077-e216-4301-9066-afec2d12b886"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "535870d8-1307-4d64-8ea7-736becd994c5",
+    "query": "Quels sont les coûts d'entrée pour ce produit ?",
+    "bert_f1": 0.5958170890808105,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "b9aa5b84-26ee-443f-b3ef-e201e9d56c4b"
+    ],
+    "retrieved_uuids": [
+      "b16f0f29-f61e-4de5-bd69-0fa80d923334",
+      "bb610cba-e297-43c1-b2e7-14ea65f0e1a6",
+      "53c9eb43-677e-4764-ba91-f0f7e110d268",
+      "b4ad9ca6-d58d-4692-8c0b-32990594d9d7"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "53b079e9-3b7e-4ef2-9310-cd43ba9c644c",
+    "query": "Quelle est la responsabilité d'Allianz Global Investors GmbH envers les investisseurs ?",
+    "bert_f1": 0.8089030981063843,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "909821ca-aa65-4c7f-8a0d-4c8364d8578c"
+    ],
+    "retrieved_uuids": [
+      "89e2c43a-c44e-48ca-a10a-aa9a45421465",
+      "f9264853-bb05-45f1-a5ae-6d555cbc2d16",
+      "019e31b2-fb8d-4e6e-942b-3c8c917fe931",
+      "0dbc995e-599e-4283-9718-d899cdc9f0cc"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "57619d9f-4c1a-44ec-ad19-3b9582c0acb2",
+    "query": "Quelle est la source du document mentionné dans le contenu de la page ?",
+    "bert_f1": 0.6422959566116333,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "b3514d0a-3432-42b2-b780-ca6db5353d8e"
+    ],
+    "retrieved_uuids": [
+      "f9e2199a-50e0-4d14-b354-2334794f5149",
+      "5be2c42a-9ed0-4877-99d3-af0840b773ee",
+      "9df1c39f-62b7-4b6e-895a-344a2556a31e",
+      "f97142dc-5821-4154-8453-aa24e7995743"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "5b94e846-0622-4118-a6cb-0673087454af",
+    "query": "Quels coûts supplémentaires pourraient éventuellement être supportés si l'investissement est réalisé dans le cadre d'un contrat d'assurance ?",
+    "bert_f1": 0.6609106659889221,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "391182ee-4e5e-4d6b-8800-d5df9f17a820"
+    ],
+    "retrieved_uuids": [
+      "391182ee-4e5e-4d6b-8800-d5df9f17a820",
+      "d48846ea-c3e0-4f71-b2b9-349f6fa11508",
+      "f3e8addb-92f2-4780-b8a2-5e127b9ce9a4",
+      "2fdd3a64-1cca-47bb-b574-d9c78355c0e2"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "5c3a89ce-5b95-45dc-82ae-e391a076d7f0",
+    "query": "Quels sont les coûts de transaction pour ce produit ?",
+    "bert_f1": 0.6574293971061707,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "b16f0f29-f61e-4de5-bd69-0fa80d923334"
+    ],
+    "retrieved_uuids": [
+      "f7da731a-03ab-461b-95bc-297ac9dd4710",
+      "f179fcc1-1c57-443e-98d6-eadc4887b714",
+      "4b332c70-a61e-4737-be14-0aa14e2aadc1",
+      "b16f0f29-f61e-4de5-bd69-0fa80d923334"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "5ccaf1c6-4632-42b4-9f5d-2d0655f4eeba",
+    "query": "Quelle est la Classe d'actions associée au Fonds Pictet - Global Environmental Opportunities ?",
+    "bert_f1": 0.6465665698051453,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "453026ae-4e86-46c8-a234-ee2d8b832cfc"
+    ],
+    "retrieved_uuids": [
+      "132182c9-a4f5-4a88-96f1-07c22a6203e7",
+      "0d6418eb-5695-4f5d-9ffe-b00ec75c2bba",
+      "0566fed7-d99d-4cf2-91a7-bad81113dee4",
+      "7676ddad-dab5-475a-a85c-97f3668ef367"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "5d23f7bf-c679-4e14-a851-31b5a1993467",
+    "query": "Quel est le rendement moyen par an prévu avant déduction des coûts ?",
+    "bert_f1": 0.49908506870269775,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "b9aa5b84-26ee-443f-b3ef-e201e9d56c4b"
+    ],
+    "retrieved_uuids": [
+      "47299c04-1dd0-4c1c-8882-de44176906ad",
+      "b9aa5b84-26ee-443f-b3ef-e201e9d56c4b",
+      "83150209-93b1-418c-9ca0-2941f48efe81",
+      "6700dbcc-d7d4-4d5f-9921-8e01cb7a88d8"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "5e89f27d-cd52-4eba-a7d7-0ac0a99f366c",
+    "query": "Quelle est la classe de risque de ce produit selon le DIC ?",
+    "bert_f1": 0.7085105776786804,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "7967ed2b-eec4-4064-aec6-033fdc9f6e71"
+    ],
+    "retrieved_uuids": [
+      "dda86581-35cc-490f-9100-91c2bb8b2d8f",
+      "c51e44ac-9c8e-46bf-afb3-d7b6444fe9e4",
+      "205a71b5-0744-4ab8-9034-46d239fe90c7",
+      "35e9b882-a723-4078-98ee-3b587fedf04a"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "5f994355-4bd7-4874-b893-5741f4c24b73",
+    "query": "Quelle est la date de création de l'OPC mentionnée dans le document ?",
+    "bert_f1": 0.5891221761703491,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "69ee36e1-a8db-4228-a0f6-e53c269d44a0"
+    ],
+    "retrieved_uuids": [
+      "6a485341-f574-4825-9d12-51778e1cd635",
+      "b44a14c3-c3c7-474b-a959-bc597bbb2d4b",
+      "69ee36e1-a8db-4228-a0f6-e53c269d44a0",
+      "a1da6092-abda-46f1-8670-dcd1e9c5da5b"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "60b36f6f-8945-4e2c-aba9-e6abef7960fd",
+    "query": "Quel montant est-il supposé être investi dans l'exemple donné ?",
+    "bert_f1": 0.6098176836967468,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "b1929db0-3f1f-4680-9ab5-e92c61741af3"
+    ],
+    "retrieved_uuids": [
+      "b1929db0-3f1f-4680-9ab5-e92c61741af3",
+      "1af2d752-1b48-4a75-9d4a-cd288e64b31a",
+      "aa6bd01b-b7c4-4af4-9e6f-8a9c7ad681d8",
+      "bc8488cc-3d76-4e21-9226-68d382a50a0c"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "63310192-9adc-42c1-a03f-408d2b6e4799",
+    "query": "Où pouvez-vous obtenir de plus amples informations sur le Compartiment, y compris le prospectus et les rapports financiers ?",
+    "bert_f1": 0.6311042308807373,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "0346692c-cf3b-439e-93e2-4647b5cef16b"
+    ],
+    "retrieved_uuids": [
+      "f97142dc-5821-4154-8453-aa24e7995743",
+      "95d392fa-f2b6-4e80-9188-5518c81875f9",
+      "dc4f03b7-0979-41f0-920a-9224e0ac621a",
+      "3865145f-a3a4-4e22-8006-3dffdde28ac7"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "64fa1e6b-29db-425c-8608-62f344f3ae47",
+    "query": "Qu'est-ce que les investisseurs peuvent également devoir supporter en plus des coûts de transaction ?",
+    "bert_f1": 0.7311508655548096,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "ca976f7d-6c80-4920-9be5-f52818e135ec"
+    ],
+    "retrieved_uuids": [
+      "f2cf18bd-ba72-4403-805c-0d69199d4f67",
+      "a7b1d021-da96-4408-8b46-86b37ff72184",
+      "d48846ea-c3e0-4f71-b2b9-349f6fa11508",
+      "a661416b-be2d-4141-8985-5fb6bfc902c0"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "652e8e03-c5c0-4616-8374-6c68ce73a3d5",
+    "query": "Que représentent les montants indiqués dans les tableaux présentés ?",
+    "bert_f1": 0.7981662154197693,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "a661416b-be2d-4141-8985-5fb6bfc902c0"
+    ],
+    "retrieved_uuids": [
+      "1af2d752-1b48-4a75-9d4a-cd288e64b31a",
+      "b1929db0-3f1f-4680-9ab5-e92c61741af3",
+      "aa6bd01b-b7c4-4af4-9e6f-8a9c7ad681d8",
+      "bc8488cc-3d76-4e21-9226-68d382a50a0c"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "672bfd13-2cee-44ad-b1b0-a537159e58b2",
+    "query": "À quels investisseurs ce produit s'adresse-t-il principalement en termes de connaissances et d'expérience en investissement ?",
+    "bert_f1": 0.7545547485351562,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "f9264853-bb05-45f1-a5ae-6d555cbc2d16"
+    ],
+    "retrieved_uuids": [
+      "546aa205-8335-422d-948a-76334dab3a33",
+      "4927c2dd-78af-4878-9e69-6e231e19727a",
+      "d48846ea-c3e0-4f71-b2b9-349f6fa11508",
+      "5be2c42a-9ed0-4877-99d3-af0840b773ee"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "68773308-ef6a-4c53-9c51-1ab2336dfa3f",
+    "query": "Qu'est-ce qui est investi et maintenu pour chaque Compartiment d’Amundi Index Solutions en cas d'incapacité d'Amundi Luxembourg S.A. à effectuer les versements ?",
+    "bert_f1": 0.5839943289756775,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "f035c8e9-3380-44a4-89b3-dba24239dc09"
+    ],
+    "retrieved_uuids": [
+      "c4211bac-5350-4ad6-a31a-a81cc0c707f1",
+      "3c85aedd-18ba-4646-8e35-958aadcba0f2",
+      "019e31b2-fb8d-4e6e-942b-3c8c917fe931",
+      "759c7c2f-ba00-463a-868e-39dbb06f269e"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "6d83d21a-f97d-402b-90e8-c4358ba6ec19",
+    "query": "Quelle est la nature du produit en cas de défaillance de la société de gestion de portefeuille ?",
+    "bert_f1": 0.7085853815078735,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "4927c2dd-78af-4878-9e69-6e231e19727a"
+    ],
+    "retrieved_uuids": [
+      "f83d0017-a80a-454d-8170-524b88344d0e",
+      "9ccc4c14-e74c-40ca-a149-23a58e3e2ef5",
+      "6c015773-5396-41e1-b11c-f04b7cae5a71",
+      "8d30bd26-b7e6-4de1-a355-e37eda10c0b5"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "6ddb3e5c-50df-4c34-8de0-7b74060c3fbf",
+    "query": "Quel est le nom du support d'investissement mentionné dans ce document ?",
+    "bert_f1": 0.5735206604003906,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "7676ddad-dab5-475a-a85c-97f3668ef367"
+    ],
+    "retrieved_uuids": [
+      "9df1c39f-62b7-4b6e-895a-344a2556a31e",
+      "bbf02d2f-b248-454e-a95d-5682f4e7a43e",
+      "0d03c524-3bba-444b-8e74-d3520a0179f4",
+      "5be2c42a-9ed0-4877-99d3-af0840b773ee"
+    ],
+    "has_source_citation": true
+  },
+  {
+    "uuid": "7421e7a4-aa38-433a-b54c-8616a7a55808",
+    "query": "Quelle est la proportion minimale d'investissement dans les actions des sociétés des États-Unis pour ce Compartiment ?",
+    "bert_f1": 0.637694239616394,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "0d03c524-3bba-444b-8e74-d3520a0179f4"
+    ],
+    "retrieved_uuids": [
+      "0d03c524-3bba-444b-8e74-d3520a0179f4",
+      "f9264853-bb05-45f1-a5ae-6d555cbc2d16",
+      "18f73077-e216-4301-9066-afec2d12b886",
+      "bc8488cc-3d76-4e21-9226-68d382a50a0c"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "75fa89ea-1b12-4c52-95ba-503504ae5dcb",
+    "query": "Qui peut négocier des actions directement avec le Compartiment sur le marché primaire ?",
+    "bert_f1": 0.7637145519256592,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "4c6b4df2-9c2f-4a07-b709-1d4be6e223bc"
+    ],
+    "retrieved_uuids": [
+      "019e31b2-fb8d-4e6e-942b-3c8c917fe931",
+      "4c6b4df2-9c2f-4a07-b709-1d4be6e223bc",
+      "3ec51ec9-dba2-49c9-b7b2-65d93a8c9eca",
+      "ca976f7d-6c80-4920-9be5-f52818e135ec"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "763127a1-9778-4307-9562-cef015d1307e",
+    "query": "Quelle est la fréquence de cristallisation de la commission de performance ?",
+    "bert_f1": 0.5845441818237305,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "175fe3cd-fa90-4b41-942d-6e4ce7c7145c"
+    ],
+    "retrieved_uuids": [
+      "175fe3cd-fa90-4b41-942d-6e4ce7c7145c",
+      "81bc6a84-0fb8-4fb4-85d7-6a69dc1b7949",
+      "192f6b76-fb19-42b5-a09e-e19159bd3f9a",
+      "759c7c2f-ba00-463a-868e-39dbb06f269e"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "77050066-add5-4868-99f1-aa68f58d6b3a",
+    "query": "Quel est l'objectif du document d'informations clés ?",
+    "bert_f1": 0.6927922964096069,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "f9e2199a-50e0-4d14-b354-2334794f5149"
+    ],
+    "retrieved_uuids": [
+      "99390eb3-479a-4760-9c47-85b72cf795dc",
+      "9e4c24d9-0257-4e4c-9962-79fe3d394288",
+      "8a43d0e0-b3f4-44be-99b0-8666ad788f6f",
+      "11a33adb-296d-4c24-849d-f3be8a7cb70f"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "777af27e-1c3d-468c-905d-993671bf0034",
+    "query": "Quelle est la durée prise en compte pour évaluer l'indicateur de risque de ce produit ?",
+    "bert_f1": 0.5558487772941589,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "5734906d-1722-4fd6-b362-64b06848f870"
+    ],
+    "retrieved_uuids": [
+      "8318bb95-70d8-476a-aed0-5a77718c23c2",
+      "35e9b882-a723-4078-98ee-3b587fedf04a",
+      "be4eecba-18d9-42b8-9c93-f5e0005925c3",
+      "205a71b5-0744-4ab8-9034-46d239fe90c7"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "7825d950-0cd2-48d6-95db-e8f07e52240d",
+    "query": "Que doit faire la personne qui vend le produit ou fournit des conseils concernant les coûts supplémentaires ?",
+    "bert_f1": 0.7547287344932556,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "39555985-cbdb-45fa-840f-39c8b1330f3b"
+    ],
+    "retrieved_uuids": [
+      "d48846ea-c3e0-4f71-b2b9-349f6fa11508",
+      "a661416b-be2d-4141-8985-5fb6bfc902c0",
+      "4b332c70-a61e-4737-be14-0aa14e2aadc1",
+      "785c0d91-5fe6-49a7-bc19-2164fbd8e96c"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "79923671-7bc1-4926-9ed9-bf2e31f2ad56",
+    "query": "Quels frais peuvent être supportés par les investisseurs sur le marché secondaire lors de l'achat ou la vente des actions du Fonds ?",
+    "bert_f1": 0.7779313921928406,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "e1fa9867-2a97-4e6d-9dc5-d95ee020e98d"
+    ],
+    "retrieved_uuids": [
+      "f2cf18bd-ba72-4403-805c-0d69199d4f67",
+      "a7b1d021-da96-4408-8b46-86b37ff72184",
+      "e1fa9867-2a97-4e6d-9dc5-d95ee020e98d",
+      "1f58d65a-196d-48eb-ad70-6acf54150257"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "7a510f65-75f9-402d-a128-368df7a8710c",
+    "query": "Quelle est la catégorie de risque dans laquelle ce produit est classé ?",
+    "bert_f1": 0.5963344573974609,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "16db4b36-9e74-433f-af3d-c58a506ec263"
+    ],
+    "retrieved_uuids": [
+      "205a71b5-0744-4ab8-9034-46d239fe90c7",
+      "35e9b882-a723-4078-98ee-3b587fedf04a",
+      "be4eecba-18d9-42b8-9c93-f5e0005925c3",
+      "8318bb95-70d8-476a-aed0-5a77718c23c2"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "7abc929f-e000-4bd4-a1b3-20957009459f",
+    "query": "Les éléments d'actif et de passif de chaque Compartiment de l'OPCVM sont-ils ségrégués ?",
+    "bert_f1": 0.7340432405471802,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "6a485341-f574-4825-9d12-51778e1cd635"
+    ],
+    "retrieved_uuids": [
+      "6a485341-f574-4825-9d12-51778e1cd635",
+      "0346692c-cf3b-439e-93e2-4647b5cef16b",
+      "69ee36e1-a8db-4228-a0f6-e53c269d44a0",
+      "4f3683ac-486b-4481-9848-3d528cf31cef"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "80060848-da86-41f8-a024-8044eb3e1351",
+    "query": "Quel est l'objectif de l'investissement décrit dans ce DIC Allianz ?",
+    "bert_f1": 0.6416181921958923,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "f135ae39-f6a6-4afa-8ca6-2cedf6d8c05a"
+    ],
+    "retrieved_uuids": [
+      "bbf02d2f-b248-454e-a95d-5682f4e7a43e",
+      "0d03c524-3bba-444b-8e74-d3520a0179f4",
+      "0346692c-cf3b-439e-93e2-4647b5cef16b",
+      "ef2f2b71-a989-4a4b-b2e0-0fe3e6984593"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "80f384a1-d666-4981-bbec-d013f10604be",
+    "query": "Où peut-on trouver plus d'informations sur les frais et commissions liés à cet OPCVM ?",
+    "bert_f1": 0.5806357264518738,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "1d8e1662-2e04-4a58-8e31-538a91d7e16b"
+    ],
+    "retrieved_uuids": [
+      "3865145f-a3a4-4e22-8006-3dffdde28ac7",
+      "53c3ef40-8884-445c-997c-2622bfaf3c8a",
+      "f6dd7e5d-c7dd-4b7b-86ba-7d3108254cf5",
+      "8d780ea7-eb55-4eae-b14d-9c51197f7175"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "81fccc26-c8ef-4c32-a39a-c987c6a8a8b4",
+    "query": "Quel type d'exposition l'Indice parent offre-t-il aux sociétés?",
+    "bert_f1": 0.6563846468925476,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "0d6418eb-5695-4f5d-9ffe-b00ec75c2bba"
+    ],
+    "retrieved_uuids": [
+      "745d4353-1dd2-4b8c-9941-6747df692e87",
+      "9c94cd45-dbe6-4b85-b2ba-5855b40b2e81",
+      "5be2c42a-9ed0-4877-99d3-af0840b773ee",
+      "0346692c-cf3b-439e-93e2-4647b5cef16b"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "87a2f99f-1dbb-457b-a616-26acf4e5e60e",
+    "query": "Comment formuler une réclamation concernant cet investissement ?",
+    "bert_f1": 0.5731360912322998,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "47d90fce-d1b8-4fa0-bb48-b716af12d7d3"
+    ],
+    "retrieved_uuids": [
+      "d48846ea-c3e0-4f71-b2b9-349f6fa11508",
+      "4927c2dd-78af-4878-9e69-6e231e19727a",
+      "aa6bd01b-b7c4-4af4-9e6f-8a9c7ad681d8",
+      "bc8488cc-3d76-4e21-9226-68d382a50a0c"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "87c88bc6-3dc1-4daf-ab4d-f417404bc481",
+    "query": "Que devez-vous faire si vous avez une réclamation au sujet de la personne qui vous a conseillé ou vendu le produit ?",
+    "bert_f1": 0.8658660650253296,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "8985a424-3d6e-4bfe-906b-25b5d4f2d720"
+    ],
+    "retrieved_uuids": [
+      "43322df9-9c87-4da0-abd7-eeb23d201b01",
+      "410cb5a0-89b4-4147-9180-2c05e39d41a8",
+      "d48846ea-c3e0-4f71-b2b9-349f6fa11508",
+      "00ae6a00-74d7-4e4b-86f9-3bcf073f43e9"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "8c3b2830-ad0a-47ce-9b98-63590e206638",
+    "query": "Quels sont les coûts récurrents prélevés chaque année ?",
+    "bert_f1": 0.6492827534675598,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "f3e8addb-92f2-4780-b8a2-5e127b9ce9a4"
+    ],
+    "retrieved_uuids": [
+      "81bc6a84-0fb8-4fb4-85d7-6a69dc1b7949",
+      "47299c04-1dd0-4c1c-8882-de44176906ad",
+      "6700dbcc-d7d4-4d5f-9921-8e01cb7a88d8",
+      "83150209-93b1-418c-9ca0-2941f48efe81"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "904bd29a-2257-4734-87c1-fd6ea9861728",
+    "query": "Que va me coûter cet investissement ?",
+    "bert_f1": 0.7709801197052002,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "4927c2dd-78af-4878-9e69-6e231e19727a"
+    ],
+    "retrieved_uuids": [
+      "a661416b-be2d-4141-8985-5fb6bfc902c0",
+      "d48846ea-c3e0-4f71-b2b9-349f6fa11508",
+      "4927c2dd-78af-4878-9e69-6e231e19727a",
+      "bc8488cc-3d76-4e21-9226-68d382a50a0c"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "91dfefbe-6d03-4ba8-b88b-dc6e766d0adf",
+    "query": "Qui paie les frais de courtage et/ou de transaction concernant les transactions en bourse sur le marché secondaire ?",
+    "bert_f1": 0.6400187611579895,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "9f35164f-b198-4b34-9e1e-8c0d3a789ffe"
+    ],
+    "retrieved_uuids": [
+      "ca976f7d-6c80-4920-9be5-f52818e135ec",
+      "f2cf18bd-ba72-4403-805c-0d69199d4f67",
+      "a7b1d021-da96-4408-8b46-86b37ff72184",
+      "c6b168f4-d6de-47f8-8c8b-bb65de26eca9"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "92f528fc-a5d9-4664-ae15-a5838c4bae8f",
+    "query": "Quelle est l'agrémentation de Amundi Asset Management en France ?",
+    "bert_f1": 0.6677361130714417,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "55dd3171-559f-47d1-bf95-5b391d434b3c"
+    ],
+    "retrieved_uuids": [
+      "55dd3171-559f-47d1-bf95-5b391d434b3c",
+      "dc4f03b7-0979-41f0-920a-9224e0ac621a",
+      "21e98a9b-b4ad-4452-a9b1-09c2677d04e5",
+      "e49cae83-53d3-45d5-91f4-11efc5a4a582"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "9747e4b0-430d-4145-8a4f-d5b748ec34a6",
+    "query": "Quels scénarios de performance sont présentés pour ce Compartiment ?",
+    "bert_f1": 0.6613802313804626,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "a443ec75-7fe2-4c25-85e4-3b088adb0bec"
+    ],
+    "retrieved_uuids": [
+      "2dd2f0ca-93f5-4038-8dbd-114527e8c852",
+      "f6a00c2e-26ea-4873-88bd-18c2f59d5966",
+      "a9d83874-f3e8-40cc-a5a9-d3886a07501a",
+      "3c1621b2-53d3-48c6-861b-04fb2001c60e"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "989e3cb7-f312-4aa1-97e9-84bf8051772b",
+    "query": "Quels critères doivent remplir les sociétés européennes dans lesquelles le Compartiment Europe investit ?",
+    "bert_f1": 0.8077694773674011,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "8709f445-3570-4dca-bc06-69e9d779098a"
+    ],
+    "retrieved_uuids": [
+      "8709f445-3570-4dca-bc06-69e9d779098a",
+      "f9264853-bb05-45f1-a5ae-6d555cbc2d16",
+      "43f69901-35b9-403f-9c59-84feb76a7be2",
+      "0566fed7-d99d-4cf2-91a7-bad81113dee4"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "98ffd81f-d980-48b5-a42f-04f2af936c46",
+    "query": "Peut-on échanger cette catégorie d'actions contre d'autres types de catégories d'actions de ce même OPCVM ?",
+    "bert_f1": 0.7643218040466309,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "6a485341-f574-4825-9d12-51778e1cd635"
+    ],
+    "retrieved_uuids": [
+      "6a485341-f574-4825-9d12-51778e1cd635",
+      "69ee36e1-a8db-4228-a0f6-e53c269d44a0",
+      "0346692c-cf3b-439e-93e2-4647b5cef16b",
+      "4f3683ac-486b-4481-9848-3d528cf31cef"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "9b0ff8ac-31aa-4265-8eb2-21cb6c9f6ecd",
+    "query": "Quelles conséquences la survenance de l'un de ces risques peut-elle avoir sur la valeur liquidative du Fonds ?",
+    "bert_f1": 0.7139735221862793,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "0425a5b5-66de-48c9-8b3e-a43007e880a8"
+    ],
+    "retrieved_uuids": [
+      "6ac81a98-5610-491c-badf-e2d6e5160a0a",
+      "0425a5b5-66de-48c9-8b3e-a43007e880a8",
+      "0878e620-b95a-4878-822d-14f8cc4ae232",
+      "f9d9082d-832a-430e-b485-a1a60b350bda"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "9b95393d-3e42-4c50-915d-801a6276f201",
+    "query": "Quels sont les coûts ponctuels à l'entrée ou à la sortie pour ce produit ?",
+    "bert_f1": 0.6737903952598572,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "e529fa9c-54fa-4102-9de4-d3bbe1a1e267"
+    ],
+    "retrieved_uuids": [
+      "b16f0f29-f61e-4de5-bd69-0fa80d923334",
+      "b4ad9ca6-d58d-4692-8c0b-32990594d9d7",
+      "bb610cba-e297-43c1-b2e7-14ea65f0e1a6",
+      "6ec88b80-4d4b-4168-bb36-28987efeedec"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "9ddc6b66-f0a2-4d51-abbf-de5d4ea2672f",
+    "query": "Qu'est-ce que l'indice MSCI Emerging Markets Latam représente ?",
+    "bert_f1": 0.7851598858833313,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "6e48ff27-0090-4bef-b21e-c1295845a177"
+    ],
+    "retrieved_uuids": [
+      "6e48ff27-0090-4bef-b21e-c1295845a177",
+      "caba5d58-c0cc-4d48-81e3-86ed1d0a1b87",
+      "a8214826-0d5b-4bf5-bee5-8d8b0ea3a65d",
+      "5be2c42a-9ed0-4877-99d3-af0840b773ee"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "a1a0bb51-fa26-4552-a79e-8acd2d5e2983",
+    "query": "Quels types de coûts peuvent être prélevés sur votre investissement ?",
+    "bert_f1": 0.6462159752845764,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "a661416b-be2d-4141-8985-5fb6bfc902c0"
+    ],
+    "retrieved_uuids": [
+      "a661416b-be2d-4141-8985-5fb6bfc902c0",
+      "47299c04-1dd0-4c1c-8882-de44176906ad",
+      "83150209-93b1-418c-9ca0-2941f48efe81",
+      "e56b2960-c34f-499c-9806-facc0c834151"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "a1aa651c-a890-4cea-99bb-e2474d18d430",
+    "query": "Quelle est la durée pour laquelle le Fonds d'Epargne Salariale est créé ?",
+    "bert_f1": 0.49828916788101196,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "c4f40ad6-fc27-497d-999b-f30ac7492527"
+    ],
+    "retrieved_uuids": [
+      "e387e339-4921-4bd2-8fb7-6492406aad96",
+      "d02d3cd7-1985-40a5-b18f-adec2cad376b",
+      "a7b42cac-9dba-4702-8eac-fb50b6a9316d",
+      "1e0b0c87-93d0-47f9-8ef7-0d019859683e"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "a1ec74a5-e701-4aac-9e63-36c2b2b86c32",
+    "query": "Quel risque est mentionné en cas de non-réalisation de l'objectif du Compartiment ?",
+    "bert_f1": 0.6371273994445801,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "10290e87-1382-4085-a2d2-c1f154004e82"
+    ],
+    "retrieved_uuids": [
+      "4f3683ac-486b-4481-9848-3d528cf31cef",
+      "c51e44ac-9c8e-46bf-afb3-d7b6444fe9e4",
+      "e1c682c2-ec25-477e-b4b2-b0c4d124e791",
+      "5734906d-1722-4fd6-b362-64b06848f870"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "a35c73c2-0b0b-41fe-81db-793c87e78810",
+    "query": "Quel est l'indicateur de risque de ce produit selon le document d'informations clés ?",
+    "bert_f1": 0.571296215057373,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "b95b8b74-7bce-459b-8751-3de4fa576398"
+    ],
+    "retrieved_uuids": [
+      "205a71b5-0744-4ab8-9034-46d239fe90c7",
+      "35e9b882-a723-4078-98ee-3b587fedf04a",
+      "be4eecba-18d9-42b8-9c93-f5e0005925c3",
+      "8318bb95-70d8-476a-aed0-5a77718c23c2"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "a8dfd54a-22bf-47bb-86e0-3670541ed030",
+    "query": "Que se passe-t-il si l'émetteur devient insolvable ou rencontre des difficultés économiques ou financières ?",
+    "bert_f1": 0.6750883460044861,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "2f250695-033e-4af4-ad58-7160a8898495"
+    ],
+    "retrieved_uuids": [
+      "0425a5b5-66de-48c9-8b3e-a43007e880a8",
+      "f83d0017-a80a-454d-8170-524b88344d0e",
+      "86cf988f-69d7-48cf-9d56-44ad8e68ad86",
+      "4f3683ac-486b-4481-9848-3d528cf31cef"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "a97d8edd-6b41-4dc9-8c05-06e0eed3d37a",
+    "query": "Quel montant a été investi dans le scénario décrit dans le document ?",
+    "bert_f1": 0.6136777997016907,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "1e0b0c87-93d0-47f9-8ef7-0d019859683e"
+    ],
+    "retrieved_uuids": [
+      "1af2d752-1b48-4a75-9d4a-cd288e64b31a",
+      "b1929db0-3f1f-4680-9ab5-e92c61741af3",
+      "aa6bd01b-b7c4-4af4-9e6f-8a9c7ad681d8",
+      "bc8488cc-3d76-4e21-9226-68d382a50a0c"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "aa58428d-49fd-4bc7-82c8-2eb3673d77de",
+    "query": "Où peut-on trouver la composition mise à jour des participations du Fonds ?",
+    "bert_f1": 0.7940184473991394,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "980e870f-8367-4c61-935e-388eca139947"
+    ],
+    "retrieved_uuids": [
+      "554a85d7-84aa-413f-a286-f42b00893e6e",
+      "980e870f-8367-4c61-935e-388eca139947",
+      "64732aee-68e7-4fbf-8d66-9f46d7a961e6",
+      "0c83aae8-98cb-438f-9835-02e9dc829f7f"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "b2a610f3-da94-483c-a2b9-2cd2ca2bc8c1",
+    "query": "Où pouvez-vous trouver le prospectus, les statuts et les documents d’informations clés pour l’investisseur ?",
+    "bert_f1": 0.61869215965271,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "deea5581-b0f4-434a-9b7c-5e1ee0692915"
+    ],
+    "retrieved_uuids": [
+      "453026ae-4e86-46c8-a234-ee2d8b832cfc",
+      "554a85d7-84aa-413f-a286-f42b00893e6e",
+      "980e870f-8367-4c61-935e-388eca139947",
+      "3865145f-a3a4-4e22-8006-3dffdde28ac7"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "b4b26126-03e7-4394-bcc4-2b3f44804eaf",
+    "query": "Où peut-on trouver l'identité des personnes responsables de l'attribution des rémunérations et des avantages pour ce fonds d'investissement ?",
+    "bert_f1": 0.7558886408805847,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "60435ca9-49e8-4795-b6af-a7ad0312f80c"
+    ],
+    "retrieved_uuids": [
+      "900e2b76-6244-44e3-bcd1-87a45f0afa6a",
+      "60435ca9-49e8-4795-b6af-a7ad0312f80c",
+      "c8aff14e-0a6b-403e-96e5-cc517c9425e5",
+      "019e31b2-fb8d-4e6e-942b-3c8c917fe931"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "b67a70f2-b247-4489-b856-f99c72c17015",
+    "query": "Quels sont les coûts totaux si l'investissement est sorti après 5 ans ?",
+    "bert_f1": 0.5715699791908264,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "f88277de-d6cb-4da2-9814-9f1199340fd9"
+    ],
+    "retrieved_uuids": [
+      "1e0b0c87-93d0-47f9-8ef7-0d019859683e",
+      "d0d60e45-5e4b-4f05-97f5-b4179947d5a6",
+      "aa6bd01b-b7c4-4af4-9e6f-8a9c7ad681d8",
+      "bc8488cc-3d76-4e21-9226-68d382a50a0c"
+    ],
+    "has_source_citation": true
+  },
+  {
+    "uuid": "b97aa842-9b82-486d-87af-d36f35ab7a4a",
+    "query": "Quels scénarios de performance sont présentés dans le document ?",
+    "bert_f1": 0.6993703842163086,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "86cf988f-69d7-48cf-9d56-44ad8e68ad86"
+    ],
+    "retrieved_uuids": [
+      "00d1ef05-fadc-4280-b51d-b7e8e56dab99",
+      "84566902-737e-467a-ad47-60dd7e4fd23f",
+      "becc5bc7-fc2b-49c4-a8cc-68a154d8fa88",
+      "2dd2f0ca-93f5-4038-8dbd-114527e8c852"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "c10b1331-4633-4b11-8da5-4a4a5f5ed53b",
+    "query": "Où peut-on obtenir gratuitement des informations financières sur demande ?",
+    "bert_f1": 0.5639637112617493,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "3be324ef-6edb-44a2-ba13-97966a8f65bd"
+    ],
+    "retrieved_uuids": [
+      "dc4f03b7-0979-41f0-920a-9224e0ac621a",
+      "b3514d0a-3432-42b2-b780-ca6db5353d8e",
+      "bb23a89a-9325-476e-9bcd-604067e1aae9",
+      "980e870f-8367-4c61-935e-388eca139947"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "c2ef7826-2e8e-47ff-ac3e-329858f729d3",
+    "query": "Quelles entités sont tenues de remettre le document d'informations clés aux souscripteurs ?",
+    "bert_f1": 0.779504656791687,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "7fcfce7f-1897-4821-84de-b801cfbe852f"
+    ],
+    "retrieved_uuids": [
+      "7fcfce7f-1897-4821-84de-b801cfbe852f",
+      "bb23a89a-9325-476e-9bcd-604067e1aae9",
+      "ef45f010-9c27-48dc-ac4a-817c2e7b748e",
+      "4f3683ac-486b-4481-9848-3d528cf31cef"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "c4f13223-30ea-4849-933a-d2fd4f5101ad",
+    "query": "Où trouver les informations complémentaires sur un contrat d'assurance vie ou de capitalisation qui ne sont pas incluses dans le document d'informations clés ?",
+    "bert_f1": 0.7464231252670288,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "ef45f010-9c27-48dc-ac4a-817c2e7b748e"
+    ],
+    "retrieved_uuids": [
+      "ef45f010-9c27-48dc-ac4a-817c2e7b748e",
+      "bb23a89a-9325-476e-9bcd-604067e1aae9",
+      "7fcfce7f-1897-4821-84de-b801cfbe852f",
+      "99390eb3-479a-4760-9c47-85b72cf795dc"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "c588eb77-6997-49d9-964b-7f8edb17e6d9",
+    "query": "Quelle est la signification des chiffres de performance exprimés en EUR dans le document ?",
+    "bert_f1": 0.7192381620407104,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "f7e1ddaa-d789-4c78-b31d-9fc80daea70b"
+    ],
+    "retrieved_uuids": [
+      "cc6a1780-8a2b-4a71-9fcf-ab53b532ec5e",
+      "69ee36e1-a8db-4228-a0f6-e53c269d44a0",
+      "175fe3cd-fa90-4b41-942d-6e4ce7c7145c",
+      "0d6418eb-5695-4f5d-9ffe-b00ec75c2bba"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "c62858f2-4c15-4620-b8c1-e7c9756d7202",
+    "query": "Quelle est l'incidence des coûts annuels si vous sortez après 5 ans ?",
+    "bert_f1": 0.5267380475997925,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "47299c04-1dd0-4c1c-8882-de44176906ad"
+    ],
+    "retrieved_uuids": [
+      "f88277de-d6cb-4da2-9814-9f1199340fd9",
+      "d02d3cd7-1985-40a5-b18f-adec2cad376b",
+      "a7b42cac-9dba-4702-8eac-fb50b6a9316d",
+      "e387e339-4921-4bd2-8fb7-6492406aad96"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "c86b6a75-3264-49c8-8f75-1bfda5f19a0e",
+    "query": "À quelle législation fiscale l'OPCVM est-il soumis ?",
+    "bert_f1": 0.5963244438171387,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "bdb44ef2-d727-40ff-9631-c32cc50a5187"
+    ],
+    "retrieved_uuids": [
+      "6a485341-f574-4825-9d12-51778e1cd635",
+      "4f3683ac-486b-4481-9848-3d528cf31cef",
+      "42942775-a997-481f-8b53-8b32e42abad6",
+      "87853657-ab1f-4d4e-9503-780d873fd408"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "ccd3ccd4-4387-4e29-a9d3-0eb71a033edf",
+    "query": "Comment obtenir un exemplaire papier de la politique de rémunération ?",
+    "bert_f1": 0.6680546402931213,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "b3514d0a-3432-42b2-b780-ca6db5353d8e"
+    ],
+    "retrieved_uuids": [
+      "b3514d0a-3432-42b2-b780-ca6db5353d8e",
+      "60435ca9-49e8-4795-b6af-a7ad0312f80c",
+      "f6dd7e5d-c7dd-4b7b-86ba-7d3108254cf5",
+      "bb23a89a-9325-476e-9bcd-604067e1aae9"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "d0c030f2-8f94-484d-8d91-af30181e08b1",
+    "query": "Quelle institution agit en tant que dépositaire du Compartiment ?",
+    "bert_f1": 0.5766030550003052,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "b060ba93-2700-458c-aab2-695313999cac"
+    ],
+    "retrieved_uuids": [
+      "019e31b2-fb8d-4e6e-942b-3c8c917fe931",
+      "759c7c2f-ba00-463a-868e-39dbb06f269e",
+      "3ec51ec9-dba2-49c9-b7b2-65d93a8c9eca",
+      "0346692c-cf3b-439e-93e2-4647b5cef16b"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "d38f9853-536d-45c6-a9b2-9587f9ede8a7",
+    "query": "Quelles informations complémentaires sont disponibles si ce produit est utilisé comme support en unité de compte d’un contrat d’assurance sur la vie ou de capitalisation ?",
+    "bert_f1": 0.7491470575332642,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "b5f327ce-ffe8-4867-aab5-1c2bf2fbe6db"
+    ],
+    "retrieved_uuids": [
+      "ef45f010-9c27-48dc-ac4a-817c2e7b748e",
+      "bb23a89a-9325-476e-9bcd-604067e1aae9",
+      "7fcfce7f-1897-4821-84de-b801cfbe852f",
+      "f97142dc-5821-4154-8453-aa24e7995743"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "d4d93d8b-6819-4274-8f5c-787895ed62bf",
+    "query": "Quelles sont les informations prises en compte pour les autres périodes de détention du produit ?",
+    "bert_f1": 0.6463505625724792,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "18f73077-e216-4301-9066-afec2d12b886"
+    ],
+    "retrieved_uuids": [
+      "e387e339-4921-4bd2-8fb7-6492406aad96",
+      "d02d3cd7-1985-40a5-b18f-adec2cad376b",
+      "a7b42cac-9dba-4702-8eac-fb50b6a9316d",
+      "1e114802-cf97-46bc-8297-fec89e60c0dd"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "df144b77-0032-4bfe-ac08-1d39b10af8f9",
+    "query": "Quels sont les rendements annuels moyens présentés pour les scénarios de tensions et défavorable ?",
+    "bert_f1": 0.6709337830543518,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "f6a00c2e-26ea-4873-88bd-18c2f59d5966"
+    ],
+    "retrieved_uuids": [
+      "6053d9ea-c3e6-4448-9a3c-b296dacdce06",
+      "a019f2b1-2479-4d4c-be46-c7ad95a105fe",
+      "2dd2f0ca-93f5-4038-8dbd-114527e8c852",
+      "becc5bc7-fc2b-49c4-a8cc-68a154d8fa88"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "e16b48bc-edae-49cc-86a8-db82c993c279",
+    "query": "Quel est le pourcentage des frais de gestion et autres frais administratifs prélevés chaque année ?",
+    "bert_f1": 0.593407928943634,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "a290de75-39a1-437d-8c1d-bc58615a0a6d"
+    ],
+    "retrieved_uuids": [
+      "81bc6a84-0fb8-4fb4-85d7-6a69dc1b7949",
+      "6700dbcc-d7d4-4d5f-9921-8e01cb7a88d8",
+      "47299c04-1dd0-4c1c-8882-de44176906ad",
+      "1f2dcb7b-3ec0-44e7-a979-b6e012cad5e1"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "e23f8a3a-2ff7-4542-a391-f1826852fc23",
+    "query": "Quelle est la période de détention recommandée pour cet investissement ?",
+    "bert_f1": 0.5256596803665161,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "d537efb3-3639-4cfd-ac2a-96d3c15c31eb"
+    ],
+    "retrieved_uuids": [
+      "d02d3cd7-1985-40a5-b18f-adec2cad376b",
+      "a7b42cac-9dba-4702-8eac-fb50b6a9316d",
+      "e387e339-4921-4bd2-8fb7-6492406aad96",
+      "1e0b0c87-93d0-47f9-8ef7-0d019859683e"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "e943d006-d450-4c3c-897a-4ca810a92dde",
+    "query": "Quelles sont les dates associées à chaque scénario pour un investissement utilisant un mandataire approprié ?",
+    "bert_f1": 0.8394853472709656,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "4c85b200-99d6-49c2-b820-e7a28d941d7d"
+    ],
+    "retrieved_uuids": [
+      "0d4f3b7d-3841-41b6-8eef-e8b67d9023e8",
+      "e816326e-bba1-416a-a993-0fc1eee3d649",
+      "a238985e-7796-49b5-a341-46f03d5c4e99",
+      "4c85b200-99d6-49c2-b820-e7a28d941d7d"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "ec33441e-7ed3-4ffc-9701-9867f4c7bf62",
+    "query": "Quelles informations sont fournies dans le Document d'Information Clé pour l'Investisseur (DICI) concernant l'OPCVM LAZARD SMALL CAPS FRANCE ?",
+    "bert_f1": 0.6222305297851562,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "4f3683ac-486b-4481-9848-3d528cf31cef"
+    ],
+    "retrieved_uuids": [
+      "3865145f-a3a4-4e22-8006-3dffdde28ac7",
+      "f9e2199a-50e0-4d14-b354-2334794f5149",
+      "9e4c24d9-0257-4e4c-9962-79fe3d394288",
+      "95d392fa-f2b6-4e80-9188-5518c81875f9"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "ee92f18c-877b-4643-bdbc-e4aac40f27fc",
+    "query": "Quel est le délai limite pour recevoir les ordres de rachat d'actions ?",
+    "bert_f1": 0.7680058479309082,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "d02d3cd7-1985-40a5-b18f-adec2cad376b"
+    ],
+    "retrieved_uuids": [
+      "9b1a4ec9-ef38-4e4c-aa7a-9e29d78aee12",
+      "deea5581-b0f4-434a-9b7c-5e1ee0692915",
+      "72c2a2cf-9209-45b2-8e70-7f49db7f049b",
+      "1e114802-cf97-46bc-8297-fec89e60c0dd"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "efac47cb-6e6f-4696-8669-9746dbc03f39",
+    "query": "Qui peut négocier des actions directement avec le Compartiment sur le marché primaire selon le document ?",
+    "bert_f1": 0.7566693425178528,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "a238985e-7796-49b5-a341-46f03d5c4e99"
+    ],
+    "retrieved_uuids": [
+      "019e31b2-fb8d-4e6e-942b-3c8c917fe931",
+      "3ec51ec9-dba2-49c9-b7b2-65d93a8c9eca",
+      "4c6b4df2-9c2f-4a07-b709-1d4be6e223bc",
+      "b060ba93-2700-458c-aab2-695313999cac"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "f23f963b-852c-463f-b282-a93f4b969b42",
+    "query": "Où peut-on consulter la valeur nette indicative de l'actif du Fonds ?",
+    "bert_f1": 0.8304982781410217,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "980e870f-8367-4c61-935e-388eca139947"
+    ],
+    "retrieved_uuids": [
+      "554a85d7-84aa-413f-a286-f42b00893e6e",
+      "980e870f-8367-4c61-935e-388eca139947",
+      "ef2f2b71-a989-4a4b-b2e0-0fe3e6984593",
+      "0878e620-b95a-4878-822d-14f8cc4ae232"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "f29e3d5a-c981-4dc3-80ef-226a0a8e01a8",
+    "query": "Où pouvez-vous trouver plus d'informations sur les autres types de parts du fonds ?",
+    "bert_f1": 0.7314675450325012,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "c03df065-801e-40f4-b567-c0b74f01a919"
+    ],
+    "retrieved_uuids": [
+      "c03df065-801e-40f4-b567-c0b74f01a919",
+      "554a85d7-84aa-413f-a286-f42b00893e6e",
+      "980e870f-8367-4c61-935e-388eca139947",
+      "9df1c39f-62b7-4b6e-895a-344a2556a31e"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "f4c8bf1d-e3b4-452e-8b26-54a58951fa24",
+    "query": "Quelles sont les caractéristiques environnementales et sociales promues par ce Compartiment ?",
+    "bert_f1": 0.6792082190513611,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "0d03c524-3bba-444b-8e74-d3520a0179f4"
+    ],
+    "retrieved_uuids": [
+      "132182c9-a4f5-4a88-96f1-07c22a6203e7",
+      "0d6418eb-5695-4f5d-9ffe-b00ec75c2bba",
+      "0566fed7-d99d-4cf2-91a7-bad81113dee4",
+      "97aefa0c-4249-464a-9fff-a4389b2c316b"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "f4eabcf3-33b8-47b7-8a90-55e714460c53",
+    "query": "Quel type de produit est décrit dans ce document d’informations clés ?",
+    "bert_f1": 0.6759159564971924,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "d8c273fc-ddec-4ca3-b650-d9e0f5e93820"
+    ],
+    "retrieved_uuids": [
+      "99390eb3-479a-4760-9c47-85b72cf795dc",
+      "9e4c24d9-0257-4e4c-9962-79fe3d394288",
+      "8a43d0e0-b3f4-44be-99b0-8666ad788f6f",
+      "95d392fa-f2b6-4e80-9188-5518c81875f9"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "f4f9927f-aca0-4627-a212-b4d37291ce08",
+    "query": "Où peut-on consulter les performances passées d'un compartiment sur une période de 10 ans ?",
+    "bert_f1": 0.7315862774848938,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "ef45f010-9c27-48dc-ac4a-817c2e7b748e"
+    ],
+    "retrieved_uuids": [
+      "9e332649-81ca-4baf-aed8-d6fff38def73",
+      "7bacf0a8-5b51-4c1d-a5b9-994062c9cc71",
+      "2028aa74-e1ed-430e-8c9a-958dd721b865",
+      "0442a225-10d3-46d9-a9a5-b0216827041d"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "f51bc4e3-4f14-4295-8dd7-3aa8615338f6",
+    "query": "Quelle est la langue dans laquelle est rédigé le document d'informations clés?",
+    "bert_f1": 0.5757876038551331,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "4b1567d1-5d9e-4e06-a76a-b0dbe5feb2dd"
+    ],
+    "retrieved_uuids": [
+      "99390eb3-479a-4760-9c47-85b72cf795dc",
+      "9e4c24d9-0257-4e4c-9962-79fe3d394288",
+      "11a33adb-296d-4c24-849d-f3be8a7cb70f",
+      "5be2c42a-9ed0-4877-99d3-af0840b773ee"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "f5b43d01-bb60-43a7-9134-43e658d9de4b",
+    "query": "Qui est le dépositaire du Compartiment mentionné dans le document ?",
+    "bert_f1": 0.5309908390045166,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "b456c699-3960-4d90-a0f4-556615ecaf78"
+    ],
+    "retrieved_uuids": [
+      "759c7c2f-ba00-463a-868e-39dbb06f269e",
+      "6a485341-f574-4825-9d12-51778e1cd635",
+      "019e31b2-fb8d-4e6e-942b-3c8c917fe931",
+      "4f3683ac-486b-4481-9848-3d528cf31cef"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "f772de4c-53e2-4c75-84c6-e64af1632c33",
+    "query": "Quelle caractéristique est mentionnée concernant la volatilité de la valeur de l'OPCVM de catégorie 4 ?",
+    "bert_f1": 0.6459389328956604,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "98f105f0-03e4-4712-a599-31c8c4c4faeb"
+    ],
+    "retrieved_uuids": [
+      "d0dbb47b-185e-4445-b470-b6f9b95b6f1b",
+      "b6a755a4-84f5-4791-bff3-56f31893f6fd",
+      "87853657-ab1f-4d4e-9503-780d873fd408",
+      "4f3683ac-486b-4481-9848-3d528cf31cef"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "f8284fc7-3a20-4069-913b-660b4fcb2349",
+    "query": "Où trouver plus de détails sur la fréquence des transactions pour cet investissement ?",
+    "bert_f1": 0.6146639585494995,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "47d90fce-d1b8-4fa0-bb48-b716af12d7d3"
+    ],
+    "retrieved_uuids": [
+      "a238985e-7796-49b5-a341-46f03d5c4e99",
+      "aa6bd01b-b7c4-4af4-9e6f-8a9c7ad681d8",
+      "bc8488cc-3d76-4e21-9226-68d382a50a0c",
+      "18f73077-e216-4301-9066-afec2d12b886"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "f9c45fca-115a-4e01-a4f7-3d73e3eae7dc",
+    "query": "Quand doit avoir lieu un rachat avant le Jour d’évaluation ?",
+    "bert_f1": 0.8111914396286011,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "c4211bac-5350-4ad6-a31a-a81cc0c707f1"
+    ],
+    "retrieved_uuids": [
+      "deea5581-b0f4-434a-9b7c-5e1ee0692915",
+      "c4211bac-5350-4ad6-a31a-a81cc0c707f1",
+      "b9aa5b84-26ee-443f-b3ef-e201e9d56c4b",
+      "9b1a4ec9-ef38-4e4c-aa7a-9e29d78aee12"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "faa4384c-69f0-4a09-a1b1-06a1f166a016",
+    "query": "Quel est le processus d'investissement décrit dans le document ?",
+    "bert_f1": 0.6634494662284851,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "bbf02d2f-b248-454e-a95d-5682f4e7a43e"
+    ],
+    "retrieved_uuids": [
+      "9df1c39f-62b7-4b6e-895a-344a2556a31e",
+      "546aa205-8335-422d-948a-76334dab3a33",
+      "b1929db0-3f1f-4680-9ab5-e92c61741af3",
+      "1af2d752-1b48-4a75-9d4a-cd288e64b31a"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "fb61824b-de4b-4a35-9f78-6f567d67fcd0",
+    "query": "Où puis-je trouver les informations pour formuler une réclamation concernant mon investissement dans ce FCP ?",
+    "bert_f1": 0.8442476391792297,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "b5f327ce-ffe8-4867-aab5-1c2bf2fbe6db"
+    ],
+    "retrieved_uuids": [
+      "b5f327ce-ffe8-4867-aab5-1c2bf2fbe6db",
+      "546aa205-8335-422d-948a-76334dab3a33",
+      "9df1c39f-62b7-4b6e-895a-344a2556a31e",
+      "64732aee-68e7-4fbf-8d66-9f46d7a961e6"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "fc2a2c25-b931-4d5d-9f8e-11f7a9a13cd9",
+    "query": "Quels autres risques peuvent influer sur la performance du produit en plus de ceux inclus dans l'indicateur de risque ?",
+    "bert_f1": 0.7153955698013306,
+    "recall_at_k": 1.0,
+    "expected_uuids": [
+      "375f41cc-141c-4dd5-ade4-bb9b39d3dfe0"
+    ],
+    "retrieved_uuids": [
+      "35e9b882-a723-4078-98ee-3b587fedf04a",
+      "be4eecba-18d9-42b8-9c93-f5e0005925c3",
+      "205a71b5-0744-4ab8-9034-46d239fe90c7",
+      "375f41cc-141c-4dd5-ade4-bb9b39d3dfe0"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "fcc78156-bec0-4791-978b-54f3b9e0b4ff",
+    "query": "Quelles sont les modalités pour obtenir le remboursement de ses parts dans ce FCPE ?",
+    "bert_f1": 0.5766168236732483,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "1e114802-cf97-46bc-8297-fec89e60c0dd"
+    ],
+    "retrieved_uuids": [
+      "53c3ef40-8884-445c-997c-2622bfaf3c8a",
+      "b9aa5b84-26ee-443f-b3ef-e201e9d56c4b",
+      "7fcfce7f-1897-4821-84de-b801cfbe852f",
+      "8d780ea7-eb55-4eae-b14d-9c51197f7175"
+    ],
+    "has_source_citation": false
+  },
+  {
+    "uuid": "fdc3cbe9-3495-4729-b16c-dbf3ec060057",
+    "query": "Quelle est la durée prise en compte pour évaluer l'indicateur de risque de ce produit ?",
+    "bert_f1": 0.5558487772941589,
+    "recall_at_k": 0.0,
+    "expected_uuids": [
+      "c51e44ac-9c8e-46bf-afb3-d7b6444fe9e4"
+    ],
+    "retrieved_uuids": [
+      "8318bb95-70d8-476a-aed0-5a77718c23c2",
+      "35e9b882-a723-4078-98ee-3b587fedf04a",
+      "be4eecba-18d9-42b8-9c93-f5e0005925c3",
+      "205a71b5-0744-4ab8-9034-46d239fe90c7"
+    ],
+    "has_source_citation": false
+  }
+]
