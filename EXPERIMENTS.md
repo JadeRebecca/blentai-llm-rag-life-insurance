@@ -151,18 +151,19 @@ Conclusion test 5 (intermédiaire) :
 
 Résultats observés (run complet 619) :
 - Nombre de requêtes : `619`
-- Mean BERT-F1 : `0.6876`
-- `% BERT-F1 >= 60%` : `84.65%`
-- Mean recall@4 : `0.5718901453957996`
+- Mean BERT-F1 : `0.6554`
+- `% BERT-F1 >= 60%` : `71.08%`
+- Mean recall@4 : `0.5735056542810986`
 - Dossier d'exports (path relatif) : `dataset_eval/result/test5/`
 
 Comparaison au baseline `K=4` (embedding initial) :
-- Recall@4 : `0.36348949919224555 -> 0.5718901453957996` (forte hausse)
-- Mean BERT-F1 : `0.6988 -> 0.6876` (légère baisse)
-- `% >=60%` : `86.27% -> 84.65%` (légère baisse)
+- Recall@4 : `0.36348949919224555 -> 0.5735056542810986` (forte hausse)
+- Mean BERT-F1 : `0.6988 -> 0.6554` (légère baisse)
+- `% >=60%` : `86.27% -> 71.08%` (baisse)
 
 Conclusion test 5 (finale) :
 - Le changement d'embedding améliore fortement le retrieval tout en maintenant un niveau de génération globalement satisfaisant (> 60%).
+- 
 ## Conclusion actuelle
 
 Configuration retenue (après validation complète) :
@@ -172,8 +173,8 @@ Configuration retenue (après validation complète) :
 - embedding `BAAI/bge-m3`
 
 Motif de décision :
-- amélioration majeure du retrieval (`mean recall@4 = 0.5719`)
-- maintien d'un niveau de génération satisfaisant (`Mean BERT-F1 = 0.6876`, `% >= 60% = 84.65%`)
+- amélioration majeure du retrieval (`mean recall@4 = 0.5735`)
+- maintien d'un niveau de génération satisfaisant (`Mean BERT-F1 = 0.6554`, `% >= 60% = 71.08%`)
 
 ## Index des exports (paths relatifs)
 

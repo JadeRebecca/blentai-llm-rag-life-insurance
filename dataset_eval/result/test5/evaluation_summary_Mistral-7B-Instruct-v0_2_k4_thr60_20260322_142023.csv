@@ -1,0 +1,2 @@
+model_name,k,threshold,nb_queries,mean_bert_f1,pct_above_threshold,mean_recall_at_4
+mistralai/Mistral-7B-Instruct-v0.2,4,0.6,619,0.6554,71.08,0.5735
